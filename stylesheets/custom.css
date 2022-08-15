@@ -1,0 +1,57 @@
+@font-face {
+  font-family: sans-serif, 'SF Pro Text';
+  src: url('../sf-font/SFPRODISPLAYREGULAR.OTF') format('otf');
+}
+
+body {
+  font-family: sans-serif, 'SF Pro Text';
+  margin: 0 auto;
+  line-height: 1.2;
+  max-width: 1200px;
+}
+
+.header{
+  margin: 40px auto 36px auto;
+}
+
+.name{
+  font-size: 5rem;
+}
+
+.photo img{
+  width: 324px;
+}
+
+.profile, .education{
+  margin-top: 48px;
+  line-height: 1.5;
+}
+
+.subtitle{
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.subtitle-eng{
+  margin-left: 16px;
+  font-size: 1.5rem;
+  color: #A00404;
+}
+
+.skill, .footer{
+  width: 1200px;
+  background: #415165;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  padding: 1.5rem;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #ddd;
+}
